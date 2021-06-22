@@ -221,7 +221,6 @@ def gaze_clustering(input_path, output_path, scale=False):
         print("Finish extracting !!!")
 
 if __name__ == '__main__':
-    os.chdir("/home/mtran/ice_framework/code")
     input_path = '../data/openface_all/'
     output_path = '../data/gaze_output/'
     scale_bool = False
