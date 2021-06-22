@@ -218,7 +218,6 @@ def gaze_clustering(input_path, output_path, scale=False):
         header_list = list(df.columns) + list(gaze_df.columns)
 
         output.to_csv(os.path.join(output_path, file.split('.')[0]+'.csv'), header=header_list, index=False)
-        print("Finish extracting !!!")
 
 if __name__ == '__main__':
     input_path = '../data/openface_all/'
